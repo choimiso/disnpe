@@ -1,0 +1,185 @@
+@charset  "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* { margin: 0; padding: 0;}
+li { list-style: none;}
+a { color: inherit; text-decoration: none;}
+img { display: block;}
+html, body { 
+  font-family: 'Noto Sans KR', 'dotum', sans-serif; 
+  color: #fff;
+}
+#wrap{ 
+  width: 100%; background-color: black;
+}
+#header{
+  width: 100%;  margin: 0 auto;
+  position: relative; z-index: 3;
+}
+#header h1{
+  width: 160px; text-align: center; padding: 19px 30px; float: left; 
+  margin-top: 30px;
+}
+#header h1 img{
+  width: 160px; height: 62px; display: block; margin-left: 120px;
+}
+#header div.nav{
+  width: 900px; height: 100px; float: left;  font-size: 14px;  margin-top: 50px;
+}
+#header div.nav ul.gnb {
+  width: 900px; float: right; margin-top: 60px; font-size: 14px; display: flex;
+  position: absolute; top: 0; right: 0;
+  
+}
+#header div.nav ul.gnb > li {
+  height: 50px;  font-size: 12px;  
+  text-align: center; line-height: 50px;
+}
+#header div.nav ul.gnb > li:nth-child(1) {
+  width: 100px;  
+}
+#header div.nav ul.gnb > li:nth-child(2) {
+  width: 100px;  
+}
+#header div.nav ul.gnb > li:nth-child(3) {
+  width: 100px;  
+}
+#header div.nav ul.gnb > li:nth-child(4) {
+  width: 150px; margin: 0 10px 0 10px ;  
+}
+#header div.nav ul.gnb > li:nth-child(5) {
+  width: 150px;  
+}
+#header div.nav ul.gnb > li:nth-child(6) {
+  width: 100px;  
+}
+#header div.nav ul.gnb li > ul {
+  display: none; 
+}
+
+#header div.nav ul.gnb li:hover > ul {
+  display: block;  z-index: 1;
+}
+#header div.nav ul.gnb li:hover > a {
+  text-decoration: underline;
+}
+#header div.nav ul.gnb > li > ul{
+  height: 50px;  font-size: 12px; text-align: center;
+}
+
+
+
+
+
+#container{
+  padding-top: 151px; min-height: calc(100vh - 151px - 46px);
+} 
+#container div.banner{
+  width: 100%; margin: 0 auto;
+}
+
+#container div.banner ul li div{
+  width: 100%; height: 505px;  position: relative;
+}
+
+#container div.banner ul li div.dis_img{
+  background-image: url("../img/dis.jpg"); background-attachment: fixed; background-size: auto 100%; background-position: 50%;
+}
+#container div.banner ul li div.dis_img a img{
+  width: 670px; height: 270px; margin: 0 auto;
+  padding-top: 100px;
+}
+
+#container div.banner ul li div.disnep_img{
+  background-image: url("../img/disnep.jpg");
+  background-attachment: fixed; background-size: auto 100%; background-position: 50%; 
+}
+#container div.banner ul li div.disnep_img img{
+  width: 280px; height: 115px; margin: 0 auto; padding-top: 150px;
+}
+#container div.banner ul li div.disnep_img ul{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 50px; 
+}
+
+
+
+#container div.banner ul li div.mavel_img{
+  background-image: url("../img/mavel.jpg");
+  background-attachment: fixed; background-size: auto 100%; background-position: 50%;
+}
+#container div.banner ul li div.mavel_img img{
+  width: 290px; height: 115px; margin: 0 auto; padding-top: 150px;
+}
+#container div.banner ul li div.mavel_img ul{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 50px; 
+}
+
+
+
+#container div.banner ul li div.starwars_img{
+  background-image: url("../img/starwars.jpg");
+  background-attachment: fixed; background-size: auto 100%; background-position: 50%;
+}
+#container div.banner ul li div.starwars_img img{
+  width: 290px; height: 125px; margin: 0 auto; padding-top: 150px;
+}
+#container div.banner ul li div.starwars_img ul{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 50px; 
+}
+
+
+
+#container div.banner ul li div.ng_img{
+  background-image: url("../img/national\ geographic.jpg");
+  background-attachment: fixed; background-size: auto 100%; background-position: 50%;
+}
+#container div.banner ul li div.ng_img img{
+  width: 360px; height: 105px; margin: 0 auto; padding-top: 150px;
+}
+#container div.banner ul li div.ng_img ul{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 50px; 
+}
+
+
+
+#container div.banner ul li div.th_img{
+  background-image: url("../img/th.jpg");
+  background-attachment: fixed; background-size: auto 100%; background-position: 50%;
+}
+#container div.banner ul li div.th_img img{
+  width: 220px; height: 180px; margin: 0 auto; padding-top: 150px;
+}
+#container div.banner ul li div.th_img ul{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 150px; 
+}
+
+
+
+#container div > ul > li > div > ul {
+  display: flex;
+} 
+#container div.banner ul li span{ 
+  margin: 0 10px;
+} 
+
+
+
+
+#footer{
+  width: 100%; height: 46px; bottom: 0; left: 0; right: 0; background-color: #9b9b9b; color: #fff; font-size: 12px; display: flex; 
+}
+#footer h2 a{
+  padding-right: 20px; float: left;
+}
+#footer img{
+  width: 67px; height: 21px; margin: 10px;
+}
+#footer span{
+  font-size: 9px; line-height: 46px; float: left; 
+}
+#footer ul{
+  list-style: none; overflow: hidden; position: absolute; right: 20px;  
+}
+#footer ul li{
+  margin-left: 25px; line-height: 46px; float: left; list-style: none; 
+}
